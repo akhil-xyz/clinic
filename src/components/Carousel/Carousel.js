@@ -15,13 +15,13 @@ export default class Carousel extends React.Component {
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://images1-fabric.practo.com/jaws-dental-clinic-implant-centre-chennai-1459252934-56fa6ec6c5339.JPG" alt="Los Angeles" width="1100" height="500" />
+                    <img src="clinic.jpg" alt="Clinic image 1" />
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images1-fabric.practo.com/jaws-dental-clinic-implant-centre-chennai-1459252934-56fa6ec6c5339.JPG" alt="Chicago" width="1100" height="500" />
+                    <img src="clinic.jpg" alt="Clinic image 2" />
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images1-fabric.practo.com/jaws-dental-clinic-implant-centre-chennai-1459252934-56fa6ec6c5339.JPG" alt="New York" width="1100" height="500" />
+                    <img src="clinic.jpg" alt="Clinic image 3" />
                 </div>
             </div>
 
