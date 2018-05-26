@@ -46,7 +46,7 @@ export default class MainContent extends React.Component {
                             {this.state.selected === "team" ? <a class="nav-link active">Our Team</a> : <a class="nav-link">Our Team</a>}
                         </li>
                         <li class="nav-item" onClick={() => this.setState({ selected: "facilities" })}>
-                            {this.state.selected === "facilities" ? <a class="nav-link active">Our Facilities</a> : <a class="nav-link">Our Facilitie</a>}
+                            {this.state.selected === "facilities" ? <a class="nav-link active">Our Facilities</a> : <a class="nav-link">Our Facilities</a>}
                         </li>
                         <li class="nav-item" onClick={() => this.setState({ selected: "tourism" })}>
                             {this.state.selected === "tourism" ? <a class="nav-link active">Dental Tourism</a> : <a class="nav-link">Dental Tourism</a>}
