@@ -5,3 +5,6 @@
     min-height: 346px;
     max-height: 592px;
 }
+li:hover{
+    cursor:pointer
+}

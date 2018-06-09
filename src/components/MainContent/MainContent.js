@@ -29,12 +29,12 @@ export default class MainContent extends React.Component {
         return <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <h2>About Clinic</h2>
+                    {/* <h2>About Clinic</h2>
                     <h5>Photo of me:</h5>
                     <div class="fakeimg">Fake Image</div>
                     <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
                     <h3>Some Links</h3>
-                    <p>Lorem ipsum dolor sit ame.</p>
+                    <p>Lorem ipsum dolor sit ame.</p> */}
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item" onClick={() => this.setState({ selected: "home" })} >
                             {this.state.selected === "home" ? <a class="nav-link active">Home</a> : <a class="nav-link">Home</a>}
@@ -58,7 +58,8 @@ export default class MainContent extends React.Component {
                             {this.state.selected === "contactUs" ? <a class="nav-link active">Contact Us</a> : <a class="nav-link">Contact Us</a>}
                         </li>
                     </ul>
-                    <hr class="d-sm-none" />
+                    <p class="message">Quality dental treatment at affordable cost</p>
+                    {/* <hr class="d-sm-none" /> */}
                 </div>
                 {this.renderContent()}
             </div>
