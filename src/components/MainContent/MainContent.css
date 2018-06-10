@@ -5,3 +5,7 @@
 .message {
     padding:15px;
 }
+
+.selected {
+    background-color: #009ABB !important
+}

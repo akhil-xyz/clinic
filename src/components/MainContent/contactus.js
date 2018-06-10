@@ -3,7 +3,7 @@ import React from 'react';
 export default class ContactUs extends React.Component {
     render() {
         return <div class="col-sm-8">
-            <h2>CONTACT US</h2>
+            <h3 style={{ color: "#009ABB" }}>CONTACT US</h3>
             <p>MULTY SPECIALITY DENTAL CLINIC</p>
             First Floor, City Centre, Opp. St.Mary's Girls High School, Main Road, Payyanur, Kannur Dist.,
             <p>Kerala - 670 307.</p>

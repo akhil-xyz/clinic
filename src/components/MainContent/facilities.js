@@ -3,7 +3,7 @@ import React from 'react';
 export default class Facilities extends React.Component {
     render() {
         return <div class="col-sm-8">
-            <h2>STATE OF THE ART FACILITIES</h2>
+            <h3 style={{ color: "#009ABB" }}>STATE OF THE ART FACILITIES</h3>
             <ul>
                 <li>Well Qualified & Experienced Dental Professionals</li>
                 <li>Computer Aided Treatment Methodology</li>
@@ -21,7 +21,7 @@ export default class Facilities extends React.Component {
                 <li>Ample Waiting Area & Longue</li>
                 <li>Car Parking Facility</li>
             </ul>
-            <h2>ADVANCED DENTAL TREATMENT UNDER ONE ROOF</h2>
+            <h3 style={{ color: "#009ABB" }}>ADVANCED DENTAL TREATMENT UNDER ONE ROOF</h3>
             <ul>
                 <li>Preventive Dental Care</li>
                 <li>Laser Dentistry </li>

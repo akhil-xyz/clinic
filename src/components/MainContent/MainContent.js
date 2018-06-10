@@ -37,25 +37,25 @@ export default class MainContent extends React.Component {
                     <p>Lorem ipsum dolor sit ame.</p> */}
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item" onClick={() => this.setState({ selected: "home" })} >
-                            {this.state.selected === "home" ? <a class="nav-link active">Home</a> : <a class="nav-link">Home</a>}
+                            {this.state.selected === "home" ? <a class="nav-link active selected">Home</a> : <a class="nav-link">Home</a>}
                         </li>
                         <li class="nav-item" onClick={() => this.setState({ selected: "profile" })}>
-                            {this.state.selected === "profile" ? <a class="nav-link active">Our Profile</a> : <a class="nav-link">Our Profile</a>}
+                            {this.state.selected === "profile" ? <a class="nav-link active selected">Our Profile</a> : <a class="nav-link">Our Profile</a>}
                         </li>
                         <li class="nav-item" onClick={() => this.setState({ selected: "team" })}>
-                            {this.state.selected === "team" ? <a class="nav-link active">Our Team</a> : <a class="nav-link">Our Team</a>}
+                            {this.state.selected === "team" ? <a class="nav-link active selected">Our Team</a> : <a class="nav-link">Our Team</a>}
                         </li>
                         <li class="nav-item" onClick={() => this.setState({ selected: "facilities" })}>
-                            {this.state.selected === "facilities" ? <a class="nav-link active">Our Facilities</a> : <a class="nav-link">Our Facilities</a>}
+                            {this.state.selected === "facilities" ? <a class="nav-link active selected">Our Facilities</a> : <a class="nav-link">Our Facilities</a>}
                         </li>
                         <li class="nav-item" onClick={() => this.setState({ selected: "tourism" })}>
-                            {this.state.selected === "tourism" ? <a class="nav-link active">Dental Tourism</a> : <a class="nav-link">Dental Tourism</a>}
+                            {this.state.selected === "tourism" ? <a class="nav-link active selected">Dental Tourism</a> : <a class="nav-link">Dental Tourism</a>}
                         </li>
                         <li class="nav-item" onClick={() => this.setState({ selected: "locateUs" })}>
-                            {this.state.selected === "locateUs" ? <a class="nav-link active">Locate Us</a> : <a class="nav-link">Locate Us</a>}
+                            {this.state.selected === "locateUs" ? <a class="nav-link active selected">Locate Us</a> : <a class="nav-link">Locate Us</a>}
                         </li>
                         <li class="nav-item" onClick={() => this.setState({ selected: "contactUs" })}>
-                            {this.state.selected === "contactUs" ? <a class="nav-link active">Contact Us</a> : <a class="nav-link">Contact Us</a>}
+                            {this.state.selected === "contactUs" ? <a class="nav-link active selected">Contact Us</a> : <a class="nav-link">Contact Us</a>}
                         </li>
                     </ul>
                     <p class="message">Quality dental treatment at affordable cost</p>
